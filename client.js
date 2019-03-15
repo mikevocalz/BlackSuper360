@@ -19,7 +19,11 @@ function init(bundle, parent, options = {}) {
   );
 
   // Load the initial environment
+<<<<<<< HEAD
   r360.compositor.setBackground(r360.getAssetURL("wakandaMuseum360.jpg"));
+=======
+  r360.compositor.setBackground(r360.getAssetURL('360_world.jpg'));
+>>>>>>> 62e5bd5d1cc9e723c275c0018db294f446002dab
 }
 
 window.React360 = {init};
